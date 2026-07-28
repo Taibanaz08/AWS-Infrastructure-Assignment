@@ -3,13 +3,18 @@
 ## Part 1 - IAM
 ### Q1. Why should the root account not be used for daily activities?
 *Answer:*
+
 The root account has full access to all AWS services. It should only be used for account setup and critical tasks to improve security.
+
 ---
 ### Q2. What is the difference between an IAM User and an IAM Role?
+
 *Answer:*
 - IAM User is created for a person and has permanent credentials.
 - IAM Role provides temporary permissions to AWS services or users.
+
 ---
+
 ### Q3. Why are Groups preferred over assigning permissions directly to users?
 *Answer:*
 Groups make permission management easier because the same permissions can be assigned to multiple users at once.
